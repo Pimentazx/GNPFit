@@ -131,3 +131,36 @@ footer{
 .logo_footer {
     width: 10%;
 }
+
+.titulo_plano {
+    color: white;
+}
+
+.titulo_plano::before {
+    content:"🔱";
+}
+
+.area_plano {
+    background-color: black;
+    padding: 40px;
+}
+
+.p_plano {
+    color: white;
+    text-align: center;
+}
+
+.borda {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+.titulo_borda {
+    color: white;
+    font-size: 20px;
+}
+
+.p_borda {
+    color:white;
+}
