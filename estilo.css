@@ -118,7 +118,7 @@ nav a:hover{
 footer{
     text-align: center;
     background-color: black;
-    padding: 40px;
+    padding: 70px;
     margin: 0;
 }
 
@@ -133,7 +133,7 @@ footer{
 }
 
 .titulo_plano {
-    color: white;
+    color: black;
 }
 
 .titulo_plano::before {
@@ -141,26 +141,71 @@ footer{
 }
 
 .area_plano {
-    background-color: black;
+    background-color: white;
     padding: 40px;
 }
 
 .p_plano {
-    color: white;
+    color: black;
     text-align: center;
 }
 
-.borda {
+.borda1 {
+    display:inline-block;
     width: 200px;
     height: 200px;
-    border: 2px solid white;
+    border: 4px solid black;
+    margin: 20px 0 20px 450px;
+    border-radius: 5px;
+}
+
+.borda2 {
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 20px 100px 20px 100px;
+    border-radius: 5px;
+}
+
+.borda3 {
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 20px 0 20px 0;
+    border-radius: 5px;
 }
 
 .titulo_borda {
-    color: white;
+    text-align: center;
+    color: black;
     font-size: 20px;
 }
 
 .p_borda {
-    color:white;
+    text-align: center;
+    color:black;
+}
+
+.logo_borda {
+    width: 40px;
+}
+
+.p_valor {
+    color: black;
+    text-align: center;
+
+}
+
+.borda1:hover {
+    transform: scale(1.2);
+}
+
+.borda2:hover {
+    transform: scale(1.2);
+}
+
+.borda3:hover {
+    transform: scale(1.2);
 }
