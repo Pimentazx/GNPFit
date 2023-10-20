@@ -209,3 +209,14 @@ footer{
 .borda3:hover {
     transform: scale(1.2);
 }
+
+
+/*Formulario*/
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+
