@@ -19,11 +19,23 @@
         </header>
         <main>
             <!--Sobre a empresa-->
-            <form name="frmContato" method="get" action="mailto:teste@mail.com" target="_blank"></form>
+            <section>
+                <h1 class="titulo_contato"> CONTATO</h1>
+            </section>
+            <p 
+             class='contato_texto'>
+             Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe responderá </p>
+             <p 
+             class='contato_texto'>
+             Nosso horário de funcionamento: Terça à Domingo das 08h as 22h </p>
+             <a class="whatsapp-link" href="https://wa.me/55951939957" target="_blank">
+                <i class="fa fa-whatsapp"></i></a> (11) 95193-9957
+            <form name="formContato" method="get" action="mailto:teste@mail.com" target="_blank"></form>
             <fieldset>
                 <legend>Dados Pessoais</legend>
+
                 <label for="nomesobrenome">* Nome e sobrenome</label>
-                <imput type="text" id="nomesobrenome" name="" class="imput-padrao" required></imput>
+                <input type="text" id="nomesobrenome" name="" class="input-padrao" required></input>
 
                 <label for="email">* E-mail</label>
                 <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
@@ -53,7 +65,7 @@
                 <br>        
             </fieldset>
 
-            <label><input type="checkbox" class="chk"> Gpstaria de receber nossas novidades no E-mail? </label>
+            <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades no E-mail?</input></label>
 
             <input type="submit" value="Enviar formulário" class="enviar">
         </main>

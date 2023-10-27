@@ -88,7 +88,7 @@ nav a:hover{
     width:15%;
     display:inline-block;
     vertical-align: top;
-    list-style: "🔱";
+    list-style: "💪🏼";
     padding-left: 40%;
     margin-top: 30px;
 }
@@ -137,7 +137,7 @@ footer{
 }
 
 .titulo_plano::before {
-    content:"🔱";
+    content:"📄";
 }
 
 .area_plano {
@@ -215,8 +215,24 @@ footer{
 
 .input-padrao{
     display: block;
-    margin: 0 0 20px;
+    margin: 0 0 20px 50px;
     padding: 10px 25px;
     width: 85%;
 }
 
+fieldset{
+    width: 40%;
+    height: 55%;
+    margin: auto;
+}
+
+
+
+.titulo_contato {
+    padding: 40px;
+    color: black;
+}
+
+.titulo_contato::before {
+    content:"📞";
+}
