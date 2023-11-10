@@ -236,3 +236,7 @@ fieldset{
 .titulo_contato::before {
     content:"📞";
 }
+
+.contato_texto {
+    text-align: center;
+}
