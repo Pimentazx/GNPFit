@@ -241,4 +241,16 @@ fieldset{
     text-align: center;
 }
 
+.titulo_grafico {
+    padding: 40px;
+    color: black;
+}
 
+.titulo_grafico::before {
+    content:"📊";
+}
+
+.grafico_img {
+    text-align: center;
+    padding: 40px;
+}
